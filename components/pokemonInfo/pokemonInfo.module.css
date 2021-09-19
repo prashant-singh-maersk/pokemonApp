@@ -1,0 +1,5 @@
+.pokemonInfo{
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 77px auto;
+}
