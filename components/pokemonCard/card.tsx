@@ -20,7 +20,7 @@ function PokemonCard({
   return (
     <a className={styles.pokemonCard} href={`/${id}`}>
       <div className={styles.imgWrapper}>
-        <Image src={imgUrl}/>
+        <Image src={imgUrl} alt={name}/>
       </div>
       <div className={styles.pokemonDetails}>
         <PokemonInfo label={'Name'} value={name} />
@@ -31,7 +31,7 @@ function PokemonCard({
           value={
             <>
               {abilities.map((abilityName, index) => (
-                <span>{abilityName}</span>
+                <span key={abilityName}>{abilityName}</span>
               ))}
             </>
           }
