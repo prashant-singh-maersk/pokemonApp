@@ -7,7 +7,7 @@ export default function PokemonInfo({ label, value }: PropsType) {
   return (
     <div className={styles.pokemonInfo}>
       <label>{label} : </label>
-      <span>{value}</span>
+      <span className={styles.pokeInfoValueContainer}>{value}</span>
     </div>
   );
 }

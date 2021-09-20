@@ -1,0 +1,7 @@
+.chips{
+    border-radius: var(--border-radius);
+    display: inline-flex;
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    margin-right: 10px;
+}

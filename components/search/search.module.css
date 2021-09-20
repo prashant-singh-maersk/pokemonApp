@@ -4,7 +4,7 @@
 }
 .search{
     padding: 10px;
-    border-radius: 20px;
+    border-radius: var(--border-radius);
     outline: none;
     border: 1px solid grey;
 }

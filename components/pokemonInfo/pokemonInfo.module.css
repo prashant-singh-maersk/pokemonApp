@@ -3,3 +3,8 @@
     display: grid;
     grid-template-columns: 77px auto;
 }
+.pokeInfoValueContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

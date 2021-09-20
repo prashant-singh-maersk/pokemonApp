@@ -1,0 +1,22 @@
+.detailPage {
+  height: calc(100vh - 58px);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 40% 60%;
+}
+
+.imageContainer {
+  text-align: center;
+  margin: 0 30px;
+}
+@media only screen and (max-width: 480px) {
+  .detailPage {
+    grid-template-columns: 90%;
+    align-items: flex-start;
+  }
+  .imageContainer {
+    text-align: center;
+    margin: 20px;
+  }
+}
