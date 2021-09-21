@@ -1,8 +1,8 @@
 # About
 
-This website is made using server side react (NEXT JS and Typescript) using graph Ql for data fetching
+This website is made using server side react (NEXT JS and Typescript) using graphQl and appolo client for data fetching
 
-[https://pokemon-app-1rl19a0nt-pokemon-task-app.vercel.app/](https://pokemon-app-1rl19a0nt-pokemon-task-app.vercel.app/)
+check it out [Pokemon live website](https://pokemon-app-e46iibs4p-pokemon-task-app.vercel.app/)
 
 The site containes 2 pages
 
@@ -15,6 +15,8 @@ This site is
 2. has keyborad navigation
 3. lint configuration
 4. has husky hooks check
+5. prettier integrated
+6. lazyloaded images
 
 # Getting Started
 
@@ -36,8 +38,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Production
 
-to check the deployed website visit
+to check the deployed website click this link
 
-[https://pokemon-app-1rl19a0nt-pokemon-task-app.vercel.app/](https://pokemon-app-1rl19a0nt-pokemon-task-app.vercel.app/)
+[Pokemon live website](https://pokemon-app-e46iibs4p-pokemon-task-app.vercel.app/)
 
-###
+### Things not done
+
+1. unit test cases
+2. sort by functionality
+3. back button on details page
