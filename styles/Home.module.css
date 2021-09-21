@@ -14,28 +14,28 @@
   margin-top: 20px;
 }
 .filterWrapper {
-  display : flex;
+  display: flex;
   justify-content: space-between;
-  width : 100%; 
-  align-items : center;
+  width: 100%;
+  align-items: center;
 }
 @media only screen and (max-width: 1080px) {
-  .container{
+  .container {
     grid-template-columns: 250px 250px 250px;
   }
-  .main{
+  .main {
     padding: 0 20px;
   }
 }
 @media only screen and (max-width: 480px) {
-  .container{
+  .container {
     grid-template-columns: 100%;
     grid-column-gap: 0;
   }
-  .main{
+  .main {
     padding: 0 20px;
   }
-  .filterWrapper{
+  .filterWrapper {
     flex-direction: column;
   }
 }

@@ -1,10 +1,10 @@
-.pokemonInfo{
-    margin-bottom: 10px;
-    display: grid;
-    grid-template-columns: 77px auto;
+.pokemonInfo {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 77px auto;
 }
-.pokeInfoValueContainer{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+.pokeInfoValueContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }

@@ -79,7 +79,7 @@ const Home: NextPage = () => {
         </div>
         {pagination}
       </main>
-      </Layout>
+    </Layout>
   );
 };
 

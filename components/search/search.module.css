@@ -1,18 +1,18 @@
-.searchContainer{
-    width:100%;
-    display: flex;
+.searchContainer {
+  width: 100%;
+  display: flex;
 }
-.search{
-    padding: 10px;
-    border-radius: var(--border-radius);
-    outline: none;
-    border: 1px solid grey;
+.search {
+  padding: 10px;
+  border-radius: var(--border-radius);
+  outline: none;
+  border: 1px solid grey;
 }
-.search:focus{
-    border: 1px solid var(--primary-color);
+.search:focus {
+  border: 1px solid var(--primary-color);
 }
 @media only screen and (max-width: 480px) {
-    .search{
-        width:100%;
-    }
+  .search {
+    width: 100%;
+  }
 }
