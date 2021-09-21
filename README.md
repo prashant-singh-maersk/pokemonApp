@@ -2,7 +2,7 @@
 
 This website is made using server side react (NEXT JS and Typescript) using graphQl and appolo client for data fetching
 
-check it out [Pokemon live website](https://pokemon-app-e46iibs4p-pokemon-task-app.vercel.app/)
+check it out [Pokemon live website](https://pokemon-app-gamma.vercel.app/)
 
 The site containes 2 pages
 
@@ -40,7 +40,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 to check the deployed website click this link
 
-[Pokemon live website](https://pokemon-app-e46iibs4p-pokemon-task-app.vercel.app/)
+[Pokemon live website](https://pokemon-app-gamma.vercel.app/)
 
 ### Things not done
 
